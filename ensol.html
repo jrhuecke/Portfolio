@@ -58,14 +58,17 @@
 							</p>
 							<h2>Enemies</h2>
 							<h3>Deer</h3>
-							<p> The deer was the first enemy I programmed for the game and was definitely the one I spent
-							the most time tweaking. One thing that made a big difference for getting them to navigate naturally was adding smoothing between updates of the obstacle 
-							detection which prevented flip flopping between the direction they wanted to move. </p>
+							<p> The deer was the first enemy I programmed for the game and was definitely the one I spent the most time tweaking. The attacks were fairly easy to implement, but 
+								getting the movement/walking animations/head movements to look good was my biggest challenge with them. One thing that really helped
+								getting them to navigate more naturally was adding smoothing between updates of the obstacle detection which prevented flip flopping between the direction they wanted 
+								to move. </p>
 							<a class="image"><img src="/images/ensol.png" alt="" data-position="center center" /></a>	
 							<h3>Bear</h3>
-							<p> The bear's throw attack ended up being the most complex attack to program out of all of the enemy attacks due to the need for a projectile manager and
-								having predictive aiming. My favorite part about the bear is that the projectile can also damage other enemies which can sometimes
-								be funny when fighting the bear with other enemies around.
+							<p> The bear serves as a mini boss of sorts for the game and like the deer has two attacks: a big swipe and a throw attack. The throw attack ended up being the most 
+								complex attack to program in the whole game due to the several scripts managing the projectiles, all the math behind calculating the launch velocity/angle, and
+								getting the bear to have predictive aiming. I also experienced some edge case issues with context steering when working on the bear's movement and I solved most of them by implementing what I have seen 
+								called a breadcrumb mechanic. As the player walks, they leave behind a trail of waypoints that the enemies can target instead of the player when the player
+								is behind obstacles.
 							</p>
 							<h3>Rabbit</h3>
 							<p>The rabbit is unique in that its behavior is set up as being in one of two modes: agro, where it charges the player or evade, where it dodges the player.
