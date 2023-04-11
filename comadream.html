@@ -15,8 +15,7 @@
 				<nav>
 					<ul>
 						<li><a href="/index.html">Portfolio</a></li>
-						<li><a href="/pages/aboutme.html" class="active">More About Me</a></li>
-						<li><a href="/elements.html">Elements</a></li>
+						<li><a href="/pages/aboutme.html" class="active">Coma Dream</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -27,7 +26,7 @@
 				<!-- Main -->
 					<section id="main" class="wrapper">
 						<div class="inner">
-							<h1 class="major">A Generic Page</h1>
+							<h1 class="major">Coma Dream</h1>
 							<div class="slideshow-container">
 								<!-- Full-width images with number and caption text -->
 								<div class="mySlides1 slideshowfade">
@@ -49,8 +48,19 @@
 								<a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
 								<a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
 							</div>
-							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
-							<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+							<p>Coma Dream was created for a course based on the provided prompt "Room Without Walls" which was all about creating
+								games with seemless looping levels. My group had several ideas for mechanics that we wanted to try out and we
+								ended up developing each of them into their own seperate levels with three levels total. I was the programmer in charge
+								of creating the 3D player controller for all the levels and then all the programming for the cuboid planet level.
+							 </p>
+
+							 <h2>Cuboid Planet Level</h2>
+							 <p>On this level the player collects keys on all 6 sides of a warped cube shaped projection of the hospital that the player starts in.
+								The main challenges for this level came from getting the player to rotate correctly when going over sides (gimbal lock is very not cool).
+								Some of the solutions to these problems involved manually offsetting rotations or creating empty game object that are used just for rotations.
+								The AI for the keys was initially very simple, but I came back and upgraded them to use context steering after learning how to use it from the 
+								enemies in Ensol.
+							 </p>
 						</div>
 					</section>
 
