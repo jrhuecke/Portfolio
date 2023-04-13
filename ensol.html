@@ -49,6 +49,17 @@
 								<a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
 							</div>
 							-->
+							<h2>Enemies</h2>
+							<p>This game was my first time implementing enemy AI and despite how challenging it was at times, I really enjoyed doing it. Most of the enemies had 2 attacks
+								and then a walking state they would be in inbetween attacks. One of the most satisfying part of the process was tweaking the context steering code that I used
+								for all the enemies movement to create 
+							</p>
+							<h3>Enemy Creation Process</h3>
+							<p>Once the general idea behind an enemy was decided on as a group, our lead combat designer and I would sit down to come up with the specifics on what the attack(s)
+								and movement would look like. Once we came up with the design for the enemy, I would set off to come up with a protoype. My first step in creating enemy prototypes
+								was drawing up what the behavior tree for the enemy, seeing how much previous code I could reuse and what new nodes/behaviors I would need to create.
+							</p>
+
 							<p>Working on this game was my first time implementing enemy AI and while it definitely had a learning curve, I ended up really enjoying it and am super 
 								interested in doing AI work on future projects. The learning curve mostly came from learning how to implement behavior trees which I decided to use for
 								the AI because the code reusability it allowed for seemed seemed like it would be helpful for creating all the enemies. The main thing that I learned from bringing 
@@ -62,7 +73,7 @@
 								getting the movement/walking animations/head movements to look smooth. One thing that really helped
 								getting them to navigate more naturally was blending updates of the obstacle detection together which prevented flip flopping between the direction they wanted 
 								to move. </p>
-							<a class="image"><img src="/images/ensol.png" alt="" data-position="center center" /></a>	
+							
 							<h3>Bear</h3>
 							<p> The bear serves as a mini boss of sorts for the game and like the deer has two attacks: a big swipe and a throw attack. The throw attack ended up being the most 
 								complex attack to program in the whole game due to the several scripts managing the projectiles, all the math behind calculating the launch velocity/angle, and
