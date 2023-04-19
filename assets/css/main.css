@@ -116,7 +116,7 @@ input, select, textarea {
 
 /* Caption text */
 .slideshowtext {
-  color: #f2f2f2;
+  color: #000000;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
