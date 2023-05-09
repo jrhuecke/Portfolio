@@ -26,10 +26,38 @@
 
 				<!-- Main -->
 					<section id="main" class="wrapper">
+						<section id="two" class="wrapper style2 fade-up">
+							<div class="inner">
+								<h2>Enemy Creation Process</h2>
+								<p>The process of creating enemies was multi step and required collaboration with many different people on our team.</p>
+								<div class="features">
+									<section>
+										<h3>1. Enemy Design Doc</h3>
+										<p>First, I would meet with our lead combat designer to write a design document for the enemy. This made sure we were
+											on the same page for how the enemy would work and allowed me to begin brainstorming how I would implement them.</p>
+									</section>
+									<section>
+										<h3>2. Behavior Tree</h3>
+										<p>Then I would draft up a plan for the enemy's behavior tree. This allowed me to see how much previous enemy code I could reuse and what new behaviors/nodes would need to be written.</p>
+									</section>
+									<section>
+										<h3>3. Prototyping</h3>
+										<p>After that came creating a prototype of the enemy. This prototype would be tweaked heavily based on playtesting until we were satisfied with its behavior.</p>
+									</section>
+									<section>
+										<h3>4. Polishing</h3>
+										<p>Lastly, I would implement the finalized model and animations. I would also often come back to add bits of polish to enemies as I learned new things when developing subsequent enemies.</p>
+									</section>
+								</div>
+								<ul class="actions">
+									<li><a href="generic.html" class="button">Learn more</a></li>
+								</ul>
+							</div>
+						</section>
 						<div class="inner">
 							<h1 class="major">Ensol</h1>
 							<h2>Enemy Creation Process</h2>
-
+							<!-- 
 							<div class="slideshow-container">
 								<div class="mySlides1 slideshowfade">
 									<img src="/images/ensol.png" alt="" style="width:100%" />
@@ -56,7 +84,11 @@
 								<a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
 								<a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
 							</div>
+							-->
 
+							<a class="image"><img src="/images/tacocat.png" alt="" data-position="center center" /></a>	
+							<p>First, I would meet with our lead combat designer to write a design document for the enemy. This made sure we were
+								on the same page for how the enemy would work and allowed me to begin brainstorming how I would implement them.</p>
 							<br>
 							<h2>Other Work I did on the Project</h2>
 
@@ -132,12 +164,10 @@
 
 		<!-- Scripts -->
 			<script>
-			let slideIndex = [1, 1, 1, 1];
-			let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4"]
+			let slideIndex = [1, 1];
+			let slideId = ["mySlides1", "mySlides2"]
 			showSlides(1, 0);
 			showSlides(1, 1);
-			showSlides(1, 2);
-			showSlides(1, 3);
 
 			function plusSlides(n, no) {
 				showSlides(slideIndex[no] += n, no);
