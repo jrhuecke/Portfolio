@@ -4,8 +4,8 @@
 		<title>Ryan Hueckel - Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="./assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="./assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
@@ -57,7 +57,7 @@
 				<!-- Projects -->
 					<section id="projects" class="wrapper style2 spotlights">
 						<section>
-							<a class="image"><img src="/images/ensol.png" alt="" data-position="center center" /></a>
+							<a class="image"><img src="./images/ensol.png" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Ensol</h2>
@@ -81,7 +81,7 @@
 							</div>
 						</section>
 						<section>
-							<a class="image"><img src="/images/coma_dream1.png" alt="" data-position="center center" /></a>
+							<a class="image"><img src="./images/coma_dream1.png" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Coma Dream</h2>
@@ -100,7 +100,7 @@
 							</div>
 						</section>
 						<section>	
-							<a class="image"><img src="/images/tacocat.png" alt="" data-position="center center" /></a>	
+							<a class="image"><img src="./images/tacocat.png" alt="" data-position="center center" /></a>	
 							<div class="content">
 								<div class="inner">
 									<h2>TacoCat</h2>
@@ -119,7 +119,7 @@
 							</div>
 						</section>
 						<section>
-							<a class="image"><img src="/images/soaring_hearts.png" alt="" data-position="center center" /></a>
+							<a class="image"><img src="./images/soaring_hearts.png" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Soaring Hearts</h2>
@@ -170,36 +170,14 @@
 			</div>
 
 		<!-- Scripts -->
-		<script>
-			let slideIndex = [1, 1, 1, 1];
-			let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4"]
-			showSlides(1, 0);
-			showSlides(1, 1);
-			showSlides(1, 2);
-			showSlides(1, 3);
-
-			function plusSlides(n, no) {
-				showSlides(slideIndex[no] += n, no);
-			}
-
-			function showSlides(n, no) {
-				let i;
-				let x = document.getElementsByClassName(slideId[no]);
-				if (n > x.length) {slideIndex[no] = 1}    
-				if (n < 1) {slideIndex[no] = x.length}
-				for (i = 0; i < x.length; i++) {
-					x[i].style.display = "none";  
-				}
-				x[slideIndex[no]-1].style.display = "block";  
-			}
 			</script>
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="./assets/js/jquery.min.js"></script>
+			<script src="./assets/js/jquery.scrollex.min.js"></script>
+			<script src="./assets/js/jquery.scrolly.min.js"></script>
+			<script src="./assets/js/browser.min.js"></script>
+			<script src="./assets/js/breakpoints.min.js"></script>
+			<script src="./assets/js/util.js"></script>
+			<script src="./assets/js/main.js"></script>
 
 	</body>
 </html>
